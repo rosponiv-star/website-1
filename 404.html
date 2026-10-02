@@ -8,7 +8,7 @@
 <title>Pagina non trovata | El Magic</title>
 <meta name="description" content="La pagina che cerchi non esiste.">
 <link rel="canonical" href="https://www.elmagic.it/404.html">
-<meta name="theme-color" content="#be1c2f">
+<meta name="theme-color" content="#f4eddc">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="it_IT">
 <meta property="og:site_name" content="El Magic Pizza Fast Food">
@@ -23,54 +23,67 @@
 <link rel="icon" href="assets/img/favicon-32.png" type="image/png" sizes="32x32">
 <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
 <link rel="manifest" href="site.webmanifest">
-<link rel="preload" href="assets/fonts/montserrat-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/anton.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/inter.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body data-root="">
 <a class="skip-link" href="#main">Vai al contenuto</a>
+<div class="ticker" aria-hidden="true"><div class="ticker__track"><span>Pizza con lievito madre</span><span>Kebab 100% halal</span><span>Aperti 7 giorni su 7</span><span>Cles · Val di Non</span><span>Malé · Val di Sole</span><span>Senza glutine su richiesta</span><span>Domicilio a Cles</span><span>Pizza con lievito madre</span><span>Kebab 100% halal</span><span>Aperti 7 giorni su 7</span><span>Cles · Val di Non</span><span>Malé · Val di Sole</span><span>Senza glutine su richiesta</span><span>Domicilio a Cles</span></div></div>
 <header class="site-header">
   <div class="container">
     <a class="brand" href="./" aria-label="El Magic, torna alla home">
-      <img src="assets/img/logo-360.webp" alt="El Magic Pizza Fast Food" width="47" height="52">
+      <img src="assets/img/logo-360.webp" alt="El Magic Pizza Fast Food" width="53" height="58">
     </a>
     <nav class="nav" aria-label="Principale">
       <a href="./">Home</a>
       <a href="menu/">Menù</a>
       <a href="contatti/">Contatti</a>
     </nav>
-    <a class="btn btn--sm header-cta" href="contatti/" data-call><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg>Chiama</a>
+    <div class="header-actions">
+      <span class="header-status"><span class="status" data-status="cles" data-label="Cles">Cles</span></span>
+      <a class="btn btn--red btn--sm" href="contatti/" data-call><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg>Chiama</a>
+    </div>
   </div>
 </header>
 
 <main id="main">
-  <section class="not-found pattern">
+  <section class="nf">
     <div class="container">
-      <img class="" src="assets/img/logo-720.webp" srcset="assets/img/logo-360.webp 360w, assets/img/logo-720.webp 720w" sizes="(max-width: 430px) 70vw, 300px" width="300" height="331" alt="El Magic Pizza Fast Food" fetchpriority="high">
-      <h1>Ops, questa pagina è sparita.</h1>
-      <p style="color:var(--muted)">Dev'essere stata una magia venuta male. Torniamo a cose più buone?</p>
-      <p style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:24px">
-        <a class="btn" href="./">Torna alla home</a>
-        <a class="btn btn--ghost" href="menu/">Vai al menù</a>
-      </p>
+      <h1>404 <span class="script">questa pagina è sparita</span></h1>
+      <p>Dev'essere stata una magia venuta male. Torniamo a cose più buone?</p>
+      <div class="hero__actions">
+        <a class="btn btn--red" href="./">Torna alla home</a>
+        <a class="btn btn--outline" href="menu/">Vai al menù<svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      </div>
     </div>
   </section>
 </main>
-<footer class="site-footer torn-top">
+<div class="checker" aria-hidden="true"></div>
+<footer class="site-footer">
   <div class="container">
-    <div class="footer-grid">
-      <div class="footer-brand">
-        <img src="assets/img/logo-360.webp" alt="El Magic Pizza Fast Food" width="120" height="132" loading="lazy">
-        <p>Pizza con lievito madre, kebab e panini. A Cles e Malé, tutti i giorni con orario continuato.</p>
-        <div class="footer-social">
-          <a href="https://www.instagram.com/el_magic_cles/" target="_blank" rel="noopener" aria-label="Instagram @el_magic_cles"><svg viewBox="0 0 24 24" aria-hidden="true"><rect width="24" height="24" rx="6" fill="currentColor"/><rect class="ic-st" x="5.5" y="5.5" width="13" height="13" rx="4" fill="none" stroke="#fff" stroke-width="1.8"/><circle class="ic-st" cx="12" cy="12" r="3.1" fill="none" stroke="#fff" stroke-width="1.8"/><circle class="ic-fg" cx="15.9" cy="8.1" r="1" fill="#fff"/></svg></a>
-          <a href="https://www.facebook.com/elmagicpizzeria/" target="_blank" rel="noopener" aria-label="Facebook El Magic Pizzeria Fast Food"><svg viewBox="0 0 24 24" aria-hidden="true"><rect width="24" height="24" rx="6" fill="currentColor"/><path class="ic-fg" fill="#fff" d="M15.4 12.6h-2.1V20h-3v-7.4H8.8v-2.6h1.5V8.4c0-2 .9-3.4 3.4-3.4h2v2.6h-1.3c-.9 0-1.1.4-1.1 1.1v1.3h2.4l-.3 2.6Z"/></svg></a>
+    <div class="footer-top">
+      <div>
+        <p class="footer-claim">Pizza, kebab <span class="script">e un pizzico di magia</span></p>
+        <div class="socials">
+          <a href="https://www.instagram.com/el_magic_cles/" target="_blank" rel="noopener" aria-label="Instagram @el_magic_cles"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".6" fill="currentColor"/></svg></a>
+          <a href="https://www.facebook.com/elmagicpizzeria/" target="_blank" rel="noopener" aria-label="Facebook El Magic Pizzeria Fast Food"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
         </div>
       </div>
       <div>
-        <h2>Le nostre sedi</h2>
+        <h2>Cles</h2>
         <ul class="footer-list">
-          <li><a href="tel:+393317897969">Cles · 331 789 7969</a><span>Via Trento, 6, 38023 Cles (TN)</span></li>
-          <li><a href="tel:+393762366958">Malé · 376 236 6958</a><span>Via Brescia, 18, 38027 Malé (TN)</span></li>
+          <li><a href="https://www.google.com/maps/search/?api=1&query=El+Magic+Pizzeria+Fast+Food+Via+Trento+6+38023+Cles+TN" target="_blank" rel="noopener">Via Trento, 6</a><small>38023 Cles (TN)</small></li>
+          <li><a href="tel:+393317897969">331 789 7969</a></li>
+          <li><small>Tutti i giorni · orario continuato</small></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Malé</h2>
+        <ul class="footer-list">
+          <li><a href="https://www.google.com/maps/search/?api=1&query=El+Magic+Via+Brescia+18+38027+Mal%C3%A9+TN" target="_blank" rel="noopener">Via Brescia, 18</a><small>38027 Malé (TN)</small></li>
+          <li><a href="tel:+393762366958">376 236 6958</a></li>
+          <li><small>Tutti i giorni · 11:00 – 01:30</small></li>
         </ul>
       </div>
       <div>
@@ -79,21 +92,22 @@
           <li><a href="./">Home</a></li>
           <li><a href="menu/">Menù</a></li>
           <li><a href="contatti/">Contatti e orari</a></li>
-          <li><a href="assets/menu/menu-el-magic.pdf" data-menu-pdf download>Scarica il menù (PDF)</a></li>
+          <li><a href="assets/menu/menu-el-magic.pdf" data-menu-pdf download>Menù in PDF</a></li>
         </ul>
       </div>
     </div>
-    <div class="footer-bottom">
-      <span>© <span data-year>2026</span> El Magic · Pizza · Fast Food</span>
-      <span>Prezzi e orari possono variare: nel dubbio, chiamaci.</span>
-    </div>
+  </div>
+  <span class="wordmark" aria-hidden="true">El Magic</span>
+  <div class="container footer-bottom">
+    <span>© <span data-year>2026</span> El Magic · Pizza · Fast Food</span>
+    <span>Le foto sono a scopo illustrativo · Prezzi e orari possono variare</span>
   </div>
 </footer>
 
 <nav class="mobile-bar" aria-label="Azioni rapide">
   <a href="menu/"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 11h.01M11 15h.01M16 16h.01"/><path d="m2 16 20 6-6-20A20 20 0 0 0 2 16"/><path d="M5.71 17.11a17 17 0 0 1 11.4-11.4"/></svg>Menù</a>
   <a class="is-primary" href="contatti/" data-call><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg>Chiama</a>
-  <a href="contatti/#sedi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="3 11 22 2 13 21 11 13 3 11"/></svg>Indicazioni</a>
+  <a href="contatti/#sedi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="3 11 22 2 13 21 11 13 3 11"/></svg>Sedi</a>
 </nav>
 <script src="assets/js/data.js" defer></script>
 <script src="assets/js/main.js" defer></script>

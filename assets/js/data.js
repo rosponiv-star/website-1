@@ -94,7 +94,8 @@ window.EL_MAGIC = {
     {
       id: "classiche",
       titolo: "Pizze classiche",
-      sottotitolo: "Le intramontabili, con impasto a lievito madre.",
+      sottotitolo: "Le intramontabili. Impasto a lievito madre, pomodoro e mozzarella: la magia comincia da qui.",
+      foto: "margherita",
       colonne: ["n", "maxi"],
       piatti: [
         { nome: "Margherita", desc: "Pomodoro, mozzarella", n: 7, maxi: 13, all: ["glutine", "lattosio"], tag: ["veg"] },
@@ -135,7 +136,8 @@ window.EL_MAGIC = {
     {
       id: "pizzaiolo",
       titolo: "Specialità del pizzaiolo",
-      sottotitolo: "Le pizze speciali firmate dal nostro pizzaiolo.",
+      sottotitolo: "Porcini, speck, burrata, lucanica: le pizze firmate dal nostro pizzaiolo.",
+      foto: "pizza-porcini",
       colonne: ["n", "maxi"],
       piatti: [
         { nome: "Dolomiti", desc: "Pomodoro, mozzarella, funghi, salsiccia, speck", n: 11, maxi: 23, all: ["glutine", "lattosio"] },
@@ -154,7 +156,8 @@ window.EL_MAGIC = {
     {
       id: "fantasia",
       titolo: "Fantasia del pizzaiolo",
-      sottotitolo: "Quando il pizzaiolo si diverte. Mare, formaggi e abbinamenti insoliti.",
+      sottotitolo: "Quando il pizzaiolo si diverte: mare, formaggi e abbinamenti che non ti aspetti.",
+      foto: "pizza-mare",
       colonne: ["n", "maxi"],
       piatti: [
         { nome: "Il Maestro", desc: "Pomodoro, mozzarella, scamorza, pesto, salmone affumicato*", n: 11, maxi: 23, all: ["glutine", "lattosio", "pesce"], tag: ["mare"] },
@@ -173,6 +176,7 @@ window.EL_MAGIC = {
       id: "kebab",
       titolo: "Kebab, panini e piadine",
       sottotitolo: "Carne 100% halal, pane caldo e salse. Con il Menù aggiungi patatine e lattina.",
+      foto: "piadina-kebab",
       colonne: ["n", "menu"],
       piatti: [
         { nome: "Panino kebab", n: 5, menu: 7.9, all: ["glutine", "lattosio", "uovo", "arachidi", "senape", "sesamo"], tag: ["top"] },
@@ -188,6 +192,7 @@ window.EL_MAGIC = {
       id: "pizza-kebab",
       titolo: "Pizza kebab e piatti",
       sottotitolo: "Il meglio dei due mondi: la nostra pizza incontra il kebab.",
+      foto: "pizza-kebab",
       colonne: ["n", "maxi"],
       piatti: [
         { nome: "Pizza kebab", desc: "Solo carne", n: 10, maxi: 20, all: ["glutine", "lattosio", "uovo", "arachidi", "senape", "sesamo"] },
@@ -201,7 +206,8 @@ window.EL_MAGIC = {
     {
       id: "bibite",
       titolo: "Bibite",
-      sottotitolo: "Per accompagnare tutto quanto.",
+      sottotitolo: "Ghiacciate, per accompagnare tutto quanto.",
+      foto: "bibite",
       colonne: ["n", "grande"],
       etichette: { n: "Media", grande: "Grande" },
       piatti: [
@@ -212,5 +218,9 @@ window.EL_MAGIC = {
     }
   ],
 
-  etichetteColonne: { n: "Normale", maxi: "Maxi", menu: "Menù", grande: "Grande" }
+  etichetteColonne: { n: "Normale", maxi: "Maxi", menu: "Menù", grande: "Grande" },
+
+  // Le foto sono illustrative (generate con IA): sostituiscile con foto vere in assets/img/foto/
+  // mantenendo gli stessi nomi (es. margherita-700.webp e margherita-1300.webp).
+  fotoDir: "assets/img/foto/"
 };
