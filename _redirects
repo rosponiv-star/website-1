@@ -1,0 +1,4 @@
+# Redirect per Cloudflare Pages (GitHub Pages ignora questo file).
+/menu.pdf      /assets/menu/menu-el-magic.pdf  302
+/menu.html     /menu/                          301
+/contatti.html /contatti/                      301
