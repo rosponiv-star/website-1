@@ -324,7 +324,7 @@ button, input { font: inherit; color: inherit; }
 .places { position: relative; background: var(--red); color: var(--cream); padding: clamp(50px, 6vw, 90px) 0 clamp(40px, 5vw, 70px); }
 .mountains { position: relative; height: clamp(40px, 6vw, 96px); margin-top: -1px; background: var(--red);
   -webkit-mask: url("../img/mountains.svg") center bottom / 100% 100% no-repeat; mask: url("../img/mountains.svg") center bottom / 100% 100% no-repeat; }
-.mountains--flip { transform: scaleY(-1); margin-top: 0; margin-bottom: -1px; }
+.mountains--flip { transform: scaleY(-1); margin-top: -3px; margin-bottom: -1px; z-index: 1; }
 .places h2 .script { color: var(--cream); }
 .places__grid { display: grid; gap: 18px; }
 @media (min-width: 900px) { .places__grid { grid-template-columns: 1fr 1fr; gap: 24px; } }
